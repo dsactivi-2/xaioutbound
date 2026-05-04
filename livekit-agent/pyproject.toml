@@ -1,0 +1,10 @@
+[project]
+name = "xaioutbound-livekit-agent"
+version = "0.1.0"
+description = "German telesales voice agent (StepStone/Indeed) for LiveKit Cloud using xAI realtime."
+requires-python = ">=3.10"
+dependencies = [
+  "livekit-agents[xai]~=1.5",
+  "python-dotenv>=1.0.1",
+]
+

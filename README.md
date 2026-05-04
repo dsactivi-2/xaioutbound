@@ -43,3 +43,7 @@ curl -sS -X POST "https://YOUR_PUBLIC_URL/telnyx/call" \
 - This MVP uses `audio/pcmu` at 8kHz (G.711 μ-law) to match Telnyx bidirectional RTP streaming defaults.
 - Adjust the German sales behavior/compliance language in `src/telesalesPrompt.js`.
 - The Telnyx stream WebSocket is authenticated with a one-time token in the `stream_url` query string; don’t expose `/telnyx/call` publicly without `ADMIN_API_KEY`.
+
+## LiveKit Cloud (optional)
+
+If you want to deploy the same agent into LiveKit Cloud rooms (WebRTC), see `livekit-agent/README.md`.
